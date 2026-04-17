@@ -1,0 +1,4 @@
+/* abstract ko object bandeina similarly interface
+value type = enum(fixed), numeric type, bool, char
+if fixed/pre-defined then in value type
+reference type= tannai value basxa in array(dynamic)
