@@ -2,3 +2,29 @@
 value type = enum(fixed), numeric type, bool, char
 if fixed/pre-defined then in value type
 reference type= tannai value basxa in array(dynamic)
+
+variable is a storage location that has a modifiabke value.
+It can be a local variable , parameter, field(instance or static), or array element
+
+Stack->block of memory for storing local variables and parameters(for primitive)
+
+Heap->reserved memory space(for non-primitive->array, objects ,...)
+selective-> select vayo vane tyo choose aru sabai no use
+
+definite assignment-> three implications
+-local variablemust be assigned a value before they are read(compile-time error)
+-function arguments must be supplied when a method is called(unless marked as optional)
+-all other variable(such as fields or array elements) are automatically initialized by runtime
+static int x; //0
+
+
+default values
+all ref type - null
+char -'\0'
+bool- false
+all numeric and enum - 0
+decimal d = default(d);
+
+ref, out ->pass by ref 
+ref->in coming(opposite of out)
+out->outgoing bahira variable declare vitra manipulation

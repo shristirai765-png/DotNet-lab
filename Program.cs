@@ -10,6 +10,7 @@ class Program
         // ArrayManipulation.invoke();
         // StringManipulation.invoke();
         // Recursion.invoke();
+        PassByValueVsReference.invoke();
     }
 
     

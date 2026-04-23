@@ -26,3 +26,4 @@ D:\College\BCA\5th Sem\.NetTech\Projects\dotnet-console-app\obj\Debug\net10.0\re
 D:\College\BCA\5th Sem\.NetTech\Projects\dotnet-console-app\obj\Debug\net10.0\dotnet-console-app.pdb
 D:\College\BCA\5th Sem\.NetTech\Projects\dotnet-console-app\obj\Debug\net10.0\dotnet-console-app.genruntimeconfig.cache
 D:\College\BCA\5th Sem\.NetTech\Projects\dotnet-console-app\obj\Debug\net10.0\ref\dotnet-console-app.dll
+D:\College\BCA\5th Sem\.NetTech\Projects\dotnet-console-app\obj\Debug\net10.0\dotnet-console-app.sourcelink.json
