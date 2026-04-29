@@ -74,3 +74,10 @@ cannot modify the c value
 -Control Statement(2081-01-11)
 ->control flow of the execution
 -Iteration Statement
+
+return- return values(final answer dinxa), break(iteration cancel)
+throw-error throw(bichma flow break vayo vanxa)
+->if return,throw, break are same i.e after these keywords nine of the statements are executed
+continue-bypass(current statement or iteration execute gardeina ani continues the iteration)
+
+logic->custom algortihm

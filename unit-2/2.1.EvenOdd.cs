@@ -1,4 +1,4 @@
-// WAP in C# to check if the user input is odd, even , or prime number.
+WAP in C# to check if the user input is odd, even , or prime number.
 // using System;
 // using System.IO.Pipelines;
 

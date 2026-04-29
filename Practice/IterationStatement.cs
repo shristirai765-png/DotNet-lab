@@ -1,14 +1,22 @@
 class IterationStatement
 {
-    static void infiniteWhileLoop()
+    static void infiniteWhileLoop(int x)
     {
-        while (true)
+        while (x<6)
         {
             Console.WriteLine("Hello!");
+            x--;
         }
+    }
+    static void jumpStatement()
+    {
+        startloop;
+        Console.WriteLine("Hello");
+        goto startloop;
     }
     public static void invoke()
     {
-        infiniteWhileLoop();
+        infiniteWhileLoop(6);
+        jumpStatement();
     }
 }
