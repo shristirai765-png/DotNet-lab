@@ -81,3 +81,22 @@ throw-error throw(bichma flow break vayo vanxa)
 continue-bypass(current statement or iteration execute gardeina ani continues the iteration)
 
 logic->custom algortihm
+
+type
+->pre-defined
+->custom(unlimited)
+
+constructor->object create garda initial value auxa
+
+all defined are variables.
+class->structure(logic)
+collectively kasto dekhinxa -class
+and example of it is - object
+object->instance(implementation)
+
+object
+-instantiation of the object->new tree()
+-declaration of the object ->tree t
+-initialization of the object -> ()(non-parameterized)
+
+readonly modifier-> cannot change value
