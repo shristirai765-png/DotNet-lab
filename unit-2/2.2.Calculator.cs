@@ -1,40 +1,56 @@
-//WAP in C# to make a simple calculator
-// using System;
-// using System.IO.Pipelines;
+// WAP in C# to make a simple calculator
+using System;
+using System.IO.Pipelines;
 
-// class Calculator
-// {
-//     static void Main()
-//     {
-//         Console.WriteLine(add(1,2));
-//         Console.WriteLine(subtract(2,4));
-//         Console.WriteLine(multiply(44,3));
-//         Console.WriteLine(divide(2,3));
-//     }
-//     static int add(int x, int y)
-//     {
-//         int result = x + y;
-//         return result;
+class Calculator
+{
+    public static void invoke()
+    {
+        Console.WriteLine("Enter value of x: ");
+        int x = int.Parse(Console.ReadLine()!);
+        Console.WriteLine("Enter value of x: ");
+        int y = int.Parse(Console.ReadLine()!);
+        Console.WriteLine("Enter value of x: ");
+        int z = int.Parse(Console.ReadLine()!);
 
-//     }
-//     static int subtract(int x, int y)
-//     {
-//         if(x > y)
-//         {
-//             return x-y;
-//         }
-//         else
-//             return y-x;
+        Console.WriteLine("Sum:");
+        Console.WriteLine(sum(x,y,z));
+        Console.WriteLine("Product:");
+        Console.WriteLine(product(x,y,x));
+        Console.WriteLine("Average:");
+        Console.WriteLine(average(x,y,z));
+        // Console.WriteLine(subtract(2,4));
+        // Console.WriteLine(multiply(44,3));
+        // Console.WriteLine(divide(2,3));
+    }
+    static int sum(int x, int y, int z)
+    {
+        int result = x + y + z;
+        return result;
 
-//     }
-//     static int multiply(int x, int y)
-//     {
-//             return x * y;
+    }
+    // static int subtract(int x, int y)
+    // {
+    //     if(x > y)
+    //     {
+    //         return x-y;
+    //     }
+    //     else
+    //         return y-x;
 
-//     }
-//     static double divide(double x, double y)
-//     {
-//             return x/y;
+    // }
+    static int product(int x, int y, int z)
+    {
+            return x * y * z;
 
-//     }
-// }
+    }
+    // static double divide(double x, double y)
+    // {
+    //         return x/y;
+
+    // }
+    static double average(int x, int y, int z)
+    {
+        return (x + y+ z)/3;
+    }
+}

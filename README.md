@@ -100,3 +100,24 @@ object
 -initialization of the object -> ()(non-parameterized)
 
 readonly modifier-> cannot change value
+
+(2081-01-17)
+constructor does not return value to class but to an object
+the name of the constructor should be same as the name of the class
+default constructor -> automatically generated in the absence of an explicit constructor(i.e no user defined constructor)
+
+instance constructor-> defined like a method except that method name and return type are reduced to the name of the enclosing type
+class name = new constructor_name(if no constructor, default)()
+classko obj banesi instance banxa
+
+destructor-> destroy after no longer need
+called implicitly by .NET framework
+class class_name{
+    ~Destructor()
+    {
+
+    }
+} 
+(2081-01-23){
+    Static Constructor->invoke only once
+}
