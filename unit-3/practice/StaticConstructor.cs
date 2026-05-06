@@ -10,16 +10,13 @@ namespace ConstructorNs
         {
             Console.WriteLine("This is default constructor");
         }
-        public static
     }
     class ConstructorTypesDemo
     {
         public static void invoke()
         {
-            ConstructorTypes ConstructorTypes = new ConstructorTypes();
-            ConstructorTypes();
-            ConstructorTypes ConstructorTypes1 = new ConstructorTypes();
-            ConstructorTypes1();
+            ConstructorTypes ct = new ConstructorTypes();
+            ConstructorTypes ct1 = new ConstructorTypes();
         }
     }
 }

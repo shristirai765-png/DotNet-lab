@@ -120,4 +120,11 @@ class class_name{
 } 
 (2081-01-23){
     Static Constructor->invoke only once
+    instance->object
+    constructor method
+
+    public Student(int id, string name){
+        this.id = id;//this.id class field and id - method parameter
+        this.name= name;
+    }
 }
