@@ -8,17 +8,14 @@ class Calculator
     {
         Console.WriteLine("Enter value of x: ");
         int x = int.Parse(Console.ReadLine()!);
-        Console.WriteLine("Enter value of x: ");
+        Console.WriteLine("Enter value of y: ");
         int y = int.Parse(Console.ReadLine()!);
-        Console.WriteLine("Enter value of x: ");
+        Console.WriteLine("Enter value of z: ");
         int z = int.Parse(Console.ReadLine()!);
 
-        Console.WriteLine("Sum:");
-        Console.WriteLine(sum(x,y,z));
-        Console.WriteLine("Product:");
-        Console.WriteLine(product(x,y,x));
-        Console.WriteLine("Average:");
-        Console.WriteLine(average(x,y,z));
+        Console.WriteLine("Sum:"+ sum(x,y,z));
+        Console.WriteLine("Product:"+ product(x,y,x));
+        Console.WriteLine("Average:"+ average(x,y,z));
         // Console.WriteLine(subtract(2,4));
         // Console.WriteLine(multiply(44,3));
         // Console.WriteLine(divide(2,3));

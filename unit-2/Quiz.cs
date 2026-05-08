@@ -1,6 +1,6 @@
 class Quiz
 {
-    static void guessAnswer()
+    public void guessAnswer()
     {
         Console.WriteLine("Are you ready to play? Y/N: ");
         string input = (Console.ReadLine()!).ToUpper();
@@ -8,6 +8,8 @@ class Quiz
         {
             Console.WriteLine("What is the largest planet in the solar system? ");
             string answer = Console.ReadLine()!;
+            answer = char.ToUpper(answer[0])+ answer.Substring(1).ToLower();
+            // Console.WriteLine(answer);
             if(answer == "Jupiter")
             {
                 Console.WriteLine("You have got the right answer.");
@@ -20,6 +22,7 @@ class Quiz
     }
     public static void invoke()
     {
-        guessAnswer();
+        Quiz ans= new Quiz();
+        ans.guessAnswer();
     }
 }

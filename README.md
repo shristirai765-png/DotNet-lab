@@ -128,3 +128,73 @@ class class_name{
         this.name= name;
     }
 }
+(2083-01-24){
+    automatic properties- no need of this , consttructor
+    indexers: indexing kunai arranged items ko item lai point out
+    string s= "hello";
+    s[0];//first value of s
+    indexers is also known as smart array
+    allows you to access a member of class or struct
+    array of smth milauxa
+    dher value eutai rakhnu prxa
+
+    indexer-get access no parameter, no static,
+    properties- static 
+
+    static -> no object
+    uses->makes constant 
+}
+(2083-01-25){
+    static class:
+    - if you declare any memer as a non staticmember, you will get an error.
+    -can be directly accessed by class name , no need to create an instance of static class
+    -static class accessed by class name followed by member name
+    - constructor is not parameterizzed
+
+    finalizer:
+    -class only methods that execute before thr grabage collector reclims the memory for an unreferenced object. 
+    - ~classname()
+
+    inheritance
+    main purpose
+        -code resuability
+        -method overriding
+    -super/base class->parent
+    -subclass->child
+    method overriding->already predefine method, method can be changed by child class that inherit the base class
+
+    syntax
+    class sub-class:super class{
+
+    }
+    types->single, multilevel,hierarchical,multiple(cannot do multiple inheritance by class ,but can do multiple inheritance by interface)
+    interface->no obj, no constructor, only focus on code reusability
+    this.-> current
+    base.->parent
+
+    interface:
+    - no need to override to use the interface member
+    -if only need implementation, no fields
+    -has no implementaion
+    -supports multiple inheritence
+    -must provide an implementaion for each interface member declared
+    -implement->cross interface and class
+    -extend-> between class and class
+    -no fields in interface
+    -if need use static
+
+    abstract: 
+    -need to override to use the abstract class method(obj of the class that inherit from the abstract class can also use the abstrat methods)
+    -have fields
+    -modified version of an interface
+    -no obj
+
+    abstract members:
+    -abstract method is a method without body
+    -implementation of an abstract method is done by derived class that inherits the abstract method
+    -the requirement is enforced at compile time called dynamic polymorphism
+    -abstract members are used to achieve total abstraction
+    -dynamic no need have abstract method in abstract class
+
+
+}

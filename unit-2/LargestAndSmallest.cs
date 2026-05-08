@@ -34,10 +34,10 @@ class LargestAndSmallestNumber
         int y = int.Parse(Console.ReadLine()!);
         Console.WriteLine("Enter value of z: ");
         int z = int.Parse(Console.ReadLine()!);
-        int largeNum = largest(x,y,z);
-        Console.WriteLine("The largest number among three numbers is: "+ largeNum);
-        int smallNum = smallest(x,y,z);
-        Console.WriteLine("The smallest number among three numbers is: "+ smallNum);
+        // int largeNum = largest(x,y,z);
+        Console.WriteLine("The largest number among three numbers is: "+ largest(x,y,z));
+        // int smallNum = smallest(x,y,z);
+        Console.WriteLine("The smallest number among three numbers is: "+ smallest(x,y,z));
         
     }
 }

@@ -38,7 +38,7 @@ class MatrixMultiply
         // {
         //     Console.Write(" "+ r);
         // }
-
+        Console.WriteLine("The result 2*2 matrix is: ");
         for (int i = 0; i < result.GetLength(0); i++)
         {
             Console.Write("| "); 

@@ -10,7 +10,7 @@ class CasingConversion
     {
         Console.WriteLine("Available cases: ");
         Console.WriteLine("1. PascalCase");
-        Console.WriteLine("2. Upper snakeCase");
+        Console.WriteLine("2. Upper snakeCase");//screaming case
         Console.WriteLine("3. Lower snakeCase");
         Console.WriteLine("4. KebabCase");
         Console.WriteLine("5. camelCase");
